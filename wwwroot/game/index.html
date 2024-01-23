@@ -56,12 +56,12 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "gameBuild";
-		var loaderUrl = "gameBuild/Build/tetWebBuild.loader.js";
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/tetWebBuild.loader.js";
       var config = {
-		  dataUrl: buildUrl + "/Build/tetWebBuild.data.br",
-		  frameworkUrl: buildUrl + "/Build/tetWebBuild.framework.js.br",
-		  codeUrl: buildUrl + "/Build/tetWebBuild.wasm.br",
+        dataUrl: buildUrl + "/tetWebBuild.data.br",
+        frameworkUrl: buildUrl + "/tetWebBuild.framework.js.br",
+        codeUrl: buildUrl + "/tetWebBuild.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Maksim Baulin LLC",
         productName: "Cyberworkshop",
