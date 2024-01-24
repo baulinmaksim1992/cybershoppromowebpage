@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'cyberworkshop'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A861A16E04E64D289F85905F337CB7DE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_59698EAFD9C74AED868353DC834C55D0 }}
           package: .
